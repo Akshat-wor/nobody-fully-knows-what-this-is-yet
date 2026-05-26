@@ -41,7 +41,7 @@ export default function FormField({ question, value, error, onChange, index }) {
         return (
           <textarea
             {...commonProps}
-            rows={2}
+            rows={1}
             className="form-field__input form-field__textarea"
           />
         );
