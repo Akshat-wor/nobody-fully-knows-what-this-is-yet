@@ -1,7 +1,7 @@
 const questions = [
   {
     id: 'name',
-    type: 'textarea',
+    type: 'text',
     label: 'introduce your internet avatar',
     placeholder: 'Your name / username...',
     required: true,
@@ -17,7 +17,7 @@ const questions = [
   },
   {
     id: 'phone',
-    type: 'textarea',
+    type: 'text',
     label: 'Phone number',
     placeholder: '+91 98765 43210',
     required: true,
@@ -25,7 +25,7 @@ const questions = [
   },
   {
     id: 'location',
-    type: 'textarea',
+    type: 'text',
     label: 'where in gurgaon are you surviving currently',
     placeholder: 'Sector / Area',
     required: true,
@@ -47,7 +47,7 @@ const questions = [
   },
   {
     id: 'toxic_trait',
-    type: 'textarea',
+    type: 'text',
     label: 'what’s your toxic trait',
     placeholder: 'Your answer...',
     required: true,
