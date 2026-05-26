@@ -1,7 +1,7 @@
 const questions = [
   {
     id: 'name',
-    type: 'text',
+    type: 'textarea',
     label: 'introduce your internet avatar',
     placeholder: 'Your name / username...',
     required: true,
@@ -17,7 +17,7 @@ const questions = [
   },
   {
     id: 'phone',
-    type: 'text',
+    type: 'textarea',
     label: 'Phone number',
     placeholder: '+91 98765 43210',
     required: true,
@@ -25,7 +25,7 @@ const questions = [
   },
   {
     id: 'location',
-    type: 'text',
+    type: 'textarea',
     label: 'where in gurgaon are you surviving currently',
     placeholder: 'Sector / Area',
     required: true,
@@ -47,7 +47,7 @@ const questions = [
   },
   {
     id: 'toxic_trait',
-    type: 'text',
+    type: 'textarea',
     label: 'what’s your toxic trait',
     placeholder: 'Your answer...',
     required: true,
@@ -55,7 +55,7 @@ const questions = [
   },
   {
     id: 'strongest_skill',
-    type: 'text',
+    type: 'textarea',
     label: 'drop your most unnecessary but strongest skill',
     description: 'e.g., making playlists, stalking internet trends, spotting cringe instantly, cinematic editing at 3am',
     placeholder: 'Your answer...',
@@ -64,7 +64,7 @@ const questions = [
   },
   {
     id: 'brand_culture',
-    type: 'text',
+    type: 'textarea',
     label: 'which brand currently understands internet culture best',
     placeholder: 'Your answer...',
     required: true,
@@ -72,7 +72,7 @@ const questions = [
   },
   {
     id: 'dumb_startup',
-    type: 'text',
+    type: 'textarea',
     label: 'pitch the dumbest startup idea possible',
     placeholder: 'Your answer...',
     required: true,
@@ -80,7 +80,7 @@ const questions = [
   },
   {
     id: 'five_lakh_company',
-    type: 'text',
+    type: 'textarea',
     label: 'You\'re starting a company tomorrow with Rs.5 lakh. What do you build and what\'s your first move?',
     placeholder: 'Your answer...',
     required: true,
@@ -88,7 +88,7 @@ const questions = [
   },
   {
     id: 'niche_hobby',
-    type: 'text',
+    type: 'textarea',
     label: 'What\'s something niche that you\'re way deep into? Any topic or hobby that you know way too much about.',
     placeholder: 'Your answer...',
     required: true,
@@ -111,7 +111,7 @@ const questions = [
   },
   {
     id: 'rabbit_holes',
-    type: 'text',
+    type: 'textarea',
     label: 'what kind of internet rabbit holes do you fall into',
     placeholder: 'Go deep...',
     required: true,
@@ -119,7 +119,7 @@ const questions = [
   },
   {
     id: 'culturally_cool',
-    type: 'text',
+    type: 'textarea',
     label: 'what’s something culturally cool before brands ruin it',
     placeholder: 'Your answer...',
     required: true,
@@ -152,7 +152,7 @@ const questions = [
   },
   {
     id: 'not_corporate',
-    type: 'text',
+    type: 'textarea',
     label: 'this is not corporate. thoughts?',
     placeholder: 'Long answer...',
     required: true,
