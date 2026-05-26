@@ -170,6 +170,11 @@
   .app__subtitle {
     margin-bottom: 36px;
   }
+
+  .app__submit-btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
 }
 
 /* ========== Landing Page ========== */
