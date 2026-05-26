@@ -1,0 +1,155 @@
+/* ========== FormField ========== */
+.form-field {
+  padding: 32px 0;
+  background: transparent;
+}
+
+/* ---- Label ---- */
+.form-field__label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.form-field__number {
+  flex-shrink: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin-top: 4px; /* visually align with the large bold text */
+}
+
+.form-field__label-text {
+  font-size: 19px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+}
+
+.form-field__required {
+  display: none; /* Hide asterisk as requested by minimalist aesthetic, but keep logic */
+}
+
+/* ---- Description ---- */
+.form-field__description {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin-top: -12px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+/* ---- Inputs ---- */
+.form-field__input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  color: var(--color-text);
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 0;
+  outline: none;
+  transition: border-color var(--transition-fast);
+  line-height: 1.5;
+}
+
+.form-field__input::placeholder {
+  color: var(--color-border-focus); /* slightly darker placeholder */
+}
+
+.form-field__input:focus {
+  border-bottom-color: #ffffff;
+}
+
+.form-field--error .form-field__input {
+  border-bottom-color: rgba(248, 113, 113, 0.6);
+}
+
+/* ---- Textarea ---- */
+.form-field__textarea {
+  resize: vertical;
+  min-height: 40px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* ---- Select ---- */
+.form-field__select {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23555' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0px center;
+  padding-right: 20px;
+}
+
+/* ---- Checkboxes & Choices ---- */
+.form-field__choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.form-field__choice-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+  transition: color var(--transition-fast);
+}
+
+.form-field__choice-btn:hover {
+  color: #ffffff;
+}
+
+.form-field__choice-btn--selected {
+  color: var(--color-accent);
+}
+
+.form-field__checkbox-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.form-field__choice-text {
+  line-height: 1.2;
+}
+
+/* ---- Error message ---- */
+.form-field__error {
+  font-size: 13px;
+  color: var(--color-error);
+  margin-top: 10px;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 640px) {
+  .form-field {
+    padding: 24px 0;
+  }
+
+  .form-field__label-text {
+    font-size: 17px;
+  }
+}
