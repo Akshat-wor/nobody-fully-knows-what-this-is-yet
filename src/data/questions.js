@@ -55,7 +55,7 @@ const questions = [
   },
   {
     id: 'strongest_skill',
-    type: 'textarea',
+    type: 'text',
     label: 'drop your most unnecessary but strongest skill',
     description: 'e.g., making playlists, stalking internet trends, spotting cringe instantly, cinematic editing at 3am',
     placeholder: 'Your answer...',
@@ -64,7 +64,7 @@ const questions = [
   },
   {
     id: 'brand_culture',
-    type: 'textarea',
+    type: 'text',
     label: 'which brand currently understands internet culture best',
     placeholder: 'Your answer...',
     required: true,
@@ -72,7 +72,7 @@ const questions = [
   },
   {
     id: 'dumb_startup',
-    type: 'textarea',
+    type: 'text',
     label: 'pitch the dumbest startup idea possible',
     placeholder: 'Your answer...',
     required: true,
@@ -80,7 +80,7 @@ const questions = [
   },
   {
     id: 'five_lakh_company',
-    type: 'textarea',
+    type: 'text',
     label: 'You\'re starting a company tomorrow with Rs.5 lakh. What do you build and what\'s your first move?',
     placeholder: 'Your answer...',
     required: true,
@@ -88,7 +88,7 @@ const questions = [
   },
   {
     id: 'niche_hobby',
-    type: 'textarea',
+    type: 'text',
     label: 'What\'s something niche that you\'re way deep into? Any topic or hobby that you know way too much about.',
     placeholder: 'Your answer...',
     required: true,
@@ -111,7 +111,7 @@ const questions = [
   },
   {
     id: 'rabbit_holes',
-    type: 'textarea',
+    type: 'text',
     label: 'what kind of internet rabbit holes do you fall into',
     placeholder: 'Go deep...',
     required: true,
@@ -119,7 +119,7 @@ const questions = [
   },
   {
     id: 'culturally_cool',
-    type: 'textarea',
+    type: 'text',
     label: 'what’s something culturally cool before brands ruin it',
     placeholder: 'Your answer...',
     required: true,
@@ -152,7 +152,7 @@ const questions = [
   },
   {
     id: 'not_corporate',
-    type: 'textarea',
+    type: 'text',
     label: 'this is not corporate. thoughts?',
     placeholder: 'Long answer...',
     required: true,
