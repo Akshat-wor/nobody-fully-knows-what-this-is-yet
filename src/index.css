@@ -49,6 +49,12 @@ body {
   background-color: var(--color-bg);
   min-height: 100vh;
   line-height: 1.5;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+  display: none;
 }
 
 #root {
