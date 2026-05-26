@@ -71,7 +71,7 @@
 
 /* ---- Textarea ---- */
 .form-field__textarea {
-  resize: none;
+  resize: vertical;
   min-height: 40px;
   max-height: 300px;
   overflow-y: auto;
